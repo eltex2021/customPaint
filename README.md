@@ -1,4 +1,4 @@
-# custom paint and Bubble sorting)))
+# custom paint, image_picker and Bubble sorting)))
 
 A new Flutter application.
 
