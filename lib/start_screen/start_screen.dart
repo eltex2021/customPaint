@@ -1,6 +1,7 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:for_study092021/animations/anamation_one.dart';
 import 'package:for_study092021/screen_one.dart';
 import '../theme/colors.dart';
 import 'package:image_picker/image_picker.dart';
@@ -136,14 +137,15 @@ class _StartScreenState extends State<StartScreen> {
       ),
       floatingActionButton: FloatingActionButton(
         child: Icon(
-          Icons.contact_support_outlined,
+          Icons.navigate_next_outlined,
           color: AppColors().colorBlack,
         ),
         onPressed: () {
           Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) => ScreenOne(),
+                builder: (context) => AnimationOne(),
+                //builder: (context) => ScreenOne(),
               ));
         },
       ),
